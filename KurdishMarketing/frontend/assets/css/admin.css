@@ -1,0 +1,31 @@
+/* Admin Dashboard Styles */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #1e293b;
+}
+
+.sidebar a {
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: #334155;
+}
+
+.admin-table th {
+    background: #f3f4f6;
+    font-weight: 600;
+}
+
+.admin-table tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+}

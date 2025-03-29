@@ -1,0 +1,34 @@
+/* RTL Support */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Product Card Hover Effect */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Kurdish Font Support */
+@font-face {
+    font-family: 'KurdishFont';
+    src: url('../fonts/NotoSansKurdish-Regular.ttf');
+}
+
+body {
+    font-family: 'KurdishFont', sans-serif;
+}
